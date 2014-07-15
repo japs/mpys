@@ -1,7 +1,36 @@
 #!/usr/bin/python3
+# *********************************************************************        
+# * Copyright (C) 2014 Jacopo Nespolo <j.nespolo@gmail.com>           *        
+# *                                                                   *
+# * For the license terms see the file LICENCE, distributed           *
+# * along with this software.                                         *
+# *********************************************************************
+#
+# This file is part of mpys.
+# 
+# mpys is free software: you can redistribute it and/or modify it under the 
+# terms of the GNU General Public License as published by the Free Software 
+# Foundation, either version 3 of the License, or (at your option) any later 
+# version.
+# 
+# mpys is distributed in the hope that it will be useful, but WITHOUT ANY 
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS 
+# FOR A PARTICULAR PURPOSE.
+# See the GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License along 
+# with mpys.  If not, see <http://www.gnu.org/licenses/>
+#
+# It goes without saying that scientific/academic ethics should apply to 
+# this piece of software. If you use this code to produce a publication,
+# it would be nice that you cite the author and provide a link to the web 
+# page where you fuond the code. 
+#
 
 import numpy as np
 import scipy.linalg as la
+
+__version__ = "0.1.0"
 
 class MPState:
     '''
